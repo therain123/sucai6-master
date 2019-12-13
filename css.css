@@ -1,0 +1,98 @@
+                 *{        margin:0;     
+	        padding:0;    }   
+	 a{        text-decoration: none;    }    
+	.Carousel{        
+		   position: relative;   
+	       width:1200px;      
+	       height:600px;      
+	       margin:50px auto;     
+	       overflow: hidden;       
+	       border:10px solid rgba(189, 184, 184,0.5);   
+	                  z-index: 1;    }   
+	 #picture{  position: absolute; 
+	            width: 7200px;     
+	           height: 600px;    }   
+	 #picture img{      
+	              float: left;       
+	               width:1200px;    
+	                height:600px;    }   
+	.Carousel .arrow{     
+	                 cursor: pointer;   
+	                 position:absolute;  
+	                 width: 15px;
+			         height: 40px; 
+	                 top:40%;      
+	                 padding:10px 15px;     
+	                 background: rgb(255,100,100);
+	                 display: inline-block;       
+	                 font-size: 30px;        
+	                 z-index: 2;        
+	                 color:white;        
+	                 font-weight: bold;        
+	                 display: none;    }  
+	    .Carousel .arrow_left{       
+	   left:30px;    }   
+	    .Carousel .arrow_right{    
+	   right:30px;    }    
+	   .Carousel:hover .arrow{      
+	    display: block;    }   
+	    .nav{
+	    	 position:absolute;
+	    	 left: 500px;
+	    	 bottom: 20px;
+	    }    
+	    .nav>li{
+	    	list-style:none;
+	    	float: left;
+	    	width: 20px;
+	    	height: 20px;
+	    	background-color: #ccc; 
+            cursor: pointer;
+            margin: 0 10px;
+            text-align: center;
+            border-radius: 50%;
+	    } 
+	   
+.tip{
+	width: 2000px; 
+	position: absolute;
+	top: 5px;
+	height: 30px;
+	background-color: #ccc;
+	color: red;
+	font-size: 15px;
+}
+
+.img{
+	float: left;
+	margin-top:2px; 
+	margin-left: 300px;
+	width:25px;
+}
+.tip1{
+	width: 1000px;
+	height: 30px;
+	border-top: none;
+	border-bottom: none;
+	text-align: center;
+	border-bottom: none;
+	position: relative;
+	overflow: hidden; 
+}
+.tip2{
+	width:1200px;
+	height: 30px;
+	position: relative;
+	left: -1200px;
+}
+.word{ 
+	width: 1200px;
+	float: left;
+	overflow: hidden;
+	line-height: 30px;
+	color: #f00;
+}
+#active{
+	background: red;
+	color: #ccc;
+}	
